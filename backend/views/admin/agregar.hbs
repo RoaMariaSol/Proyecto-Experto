@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <main class="main-agregar">
+        <h3>Agregar una nueva noticia</h3>
+        <div class="container cont-agregar" style="margin: 100px auto">
+            <img class="img-woody" src="/images/woody-saluda.png">
+            <div class="col-6 offset-3 cont-form-agregar">
+                <h5>Los campos requeridos son: <br> Copete, Titulo, Subtitulo y Cuerpo1 </h5>
+                <form action="/admin/noticias/agregar" method="post" enctype="multipart/form-data" enctype="multipart/form-data">
+                    
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Volanta (requerido) " name="volanta">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Titulo (requerido)" name="titulo">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea type="text" class="form-control" placeholder="Subtitulo (requerido)" name="subtitulo"></textarea>
+                    </div>
+
+                     <div class="form-group">
+                        <label>Imagen1: <input class="form-control" type="file" name="imagen" id="imagen"> </label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea type="text" class="form-control" placeholder="Cuerpo1 (requrido)" name="cuerpo"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Imagen2: <input class="form-control" type="file" name="imagen2" id="imagen2"> </label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea type="text" class="form-control" placeholder="Cuerpo2" name="cuerpo2"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Imagen3: <input class="form-control" type="file" name="imagen3" id="imagen3"> </label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea type="text" class="form-control" placeholder="Cuerpo3" name="cuerpo3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
+                {{#if error}}
+                    <p>{{message}}</p>
+                {{/if}}
+            </div>
+        </div>
+        </div>
+    </main>
+</body>

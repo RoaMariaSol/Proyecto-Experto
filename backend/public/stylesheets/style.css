@@ -1,0 +1,56 @@
+/* COMÚN PARA TODAS LAS NOTICIAS */
+
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+
+@font-face {
+  font-family: 'mickey';
+  src: url(./WickedMouseDemo.otf);
+}
+body{
+  background-color:#044A83 ;
+  color: white;
+}
+
+h3{
+  font-family: 'mickey';
+}
+
+/* AGREGAR NOTICIA */
+
+.form-group{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.img-woody{
+  width: 250px;
+  height: 450px;
+  
+}
+
+.cont-agregar{
+  display: flex;
+}
+
+.cont-form-agregar{
+  width: 60%;
+}
+
+/* MODIFICAR NOTICIA */
+.cont-modificar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-mickey{
+  width: 350px;
+  height: 400px;
+}
+
+.cont-form-modificar{
+  width: 700px;
+}
