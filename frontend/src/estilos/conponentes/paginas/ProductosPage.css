@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'mickey';
+    src: url(/src/assets/fonts/WickedMouseDemo.otf);
+}
+
+.main-taza, .main-disfraz, .main-peluche{
+    background: rgb(150, 165, 220);
+    background: linear-gradient(180deg, rgba(150, 165, 220, 1) 0%, rgba(110, 161, 227, 1) 35%, rgba(42, 136, 221, 1) 100%);
+    margin-top: -50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    padding-top: 150px;
+   font-family: 'mickey';
+   font-weight: 800;
+   font-size: 70px;
+   text-align: center;
+   color: #ffffff;
+}
+
+.renglon{
+    display: flex;
+    width: 1200px;
+}
+
+.card{
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card:hover .cont-img{
+    border: 1px solid #ffffff;
+}
+
+.cont-img{
+    height: 300px;
+    background-color: #93A5DC;
+    padding-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.1s;
+    padding-bottom: 0px;
+}
+
+.foto-prod{
+    width: 70%;
+}
+
+h3{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+h4{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+

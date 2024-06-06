@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'mickey';
+    src: url(/src/assets/fonts/WickedMouseDemo.otf);
+}
+
+.shop-main{
+    background: rgb(150, 165, 220);
+    background: linear-gradient(180deg, rgba(150, 165, 220, 1) 0%, rgba(110, 161, 227, 1) 35%, rgba(42, 136, 221, 1) 100%);
+    padding: 0;
+    
+}
+.cont-todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    padding-top: 150px;
+   font-family: 'mickey';
+   font-weight: 800;
+   font-size: 70px;
+   text-align: center;
+   color: #ffffff;
+}
+
+.cont-tarjetas{
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta{
+    background-color: #93a5dc;
+    margin: 15px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;    
+}
+.portada{
+    width: 320px;
+    height: 450px;
+    margin-top: -20px;
+    transition: 0.5s;
+
+}
+.portada:hover{
+    transform: scale(1.2);
+}
+.cont-img{
+    width: 320px;
+    height: 450px;
+    overflow: hidden;
+
+}
+.texto{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+.texto h3{
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.boton{
+    text-decoration: none;
+    border: solid #ffffff 1px;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+

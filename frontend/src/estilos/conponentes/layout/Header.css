@@ -1,0 +1,28 @@
+/* HEADER CON POSITION ABSOLUTE*/
+
+header{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 180px;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid #ffffff;
+    
+}
+nav ul{
+    width: 620px;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    
+}
+nav li{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    list-style: none;
+}
+

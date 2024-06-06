@@ -1,0 +1,121 @@
+.main-princesas{
+    margin-top: -50px;
+    padding: 0;
+    }
+    .portada-princesa{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .ser-jack{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #8A2F30;
+        margin-top: -5px;
+    }
+    .texto-jack{
+        width: 45%;
+        text-align: left;
+        margin-left: 90px;
+        color: #ffffff;
+    }
+    .texto-jack h1{
+        font-family: 'mickey';
+        font-weight: 800;
+        font-size: 34px;
+        color: #ffffff;
+        padding: 0;
+        text-align: left;
+    }
+    .texto p{
+        font-size: 15px;
+    }
+    .jack-img{
+        width: 550px;
+    }
+    .jack-img img{
+       width: 100%;
+       margin-bottom: -5px;
+    }
+    .primer-pixar{
+      background-image: url("/public/imgPeliculas/fondo-toy.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -5px;
+    }
+    .primer-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .primer-img{
+        width: 650px;
+    }
+    .primer-img img{
+        width: 650px;
+        object-fit: cover;
+    }
+    .texto2{
+        text-align: right;
+        margin-right: 90px;
+        margin-left: 0px;
+    }
+    
+    .texto2 p{
+        font-size: 15px;
+        color: #ffffff;
+    }
+    
+    .texto2 h3{
+        color: #ffffff;
+        font-size: 12px;
+        text-transform: uppercase;
+        
+    }
+    
+    .texto2 h1{
+        font-family: 'mickey';
+        font-weight: 800;
+        font-size: 34px;
+        color: #ffffff;
+        padding: 0;
+        text-align: right;
+    }
+    
+    .galeria-princesas{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    
+    .gale-pajaro{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .gale-pajaro img{
+        width: 450px;
+        height: 750px;
+        margin-left: 5px;
+    }
+    
+    .galeria-pixar{
+        margin: 60px;
+        padding: 0;
+        width: 60%;
+    }
+    
+    .renglon-gale{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    .galeria-pixar img{
+        width: 250px;
+        height: 250px; 
+    }
